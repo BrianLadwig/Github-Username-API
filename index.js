@@ -13,9 +13,12 @@
      const gitRepos = `https://api.github.com/users/${username}/repos`;
      const response = await fetch(gitRepos);
      const repos = await response.json();
-    const ul = document.querySelector('#repoBox');
-    ul.innerHTML ='';
+
     
+
+     const ul = document.querySelector('#repoBox');
+      ul.innerHTML ='';
+
 
 
 
